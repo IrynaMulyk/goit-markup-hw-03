@@ -1,0 +1,333 @@
+:root {
+    --primColor1: #434455;
+    --primColor2: #2E2F42;
+    --primColor3: #FFFFFF;
+    --primColor4: #4D5AE5;
+    --primColor5: #F4F4FD;
+    --primColor6: #E7E9FC;
+    }
+    
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+    }
+    .page {
+        font-family: 'Roboto', sans-serif;
+        background: var(--primColor3);
+        color: var(--primColor1);
+    }
+    ul 
+    { list-style: none; 
+    padding: 0;
+    margin: 0;
+    }
+    .container {
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;  
+        margin: 0 auto;
+    }
+    .site-header {
+        background: var(--primColor3);
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+    }
+    .header-container {
+        display: flex;
+        align-items: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        height: 72px;
+    }
+    .logo {
+        font-family: 'Raleway', sans-serif;
+        color: var(--primColor4);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.33;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none; 
+        margin-right: 77px;
+    }
+    .logo-studio {
+        color: var(--primColor2);
+        text-decoration: none;
+    }
+    .nav-links {
+        display: flex;
+    }
+    .nav-tab {
+        color: var(--primColor2);
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+    }
+    .nav-item:not(:last-child) {
+        margin-right: 24px;
+    }
+    .nav-tab:hover,
+    .nav-tab:focus {
+        color: var(--primColor4);
+    }
+    .contact {
+        display: flex;
+        margin-right: 0;
+        margin-left: auto;
+    }
+    .contact-way {
+        color: var(--primColor1);
+        text-decoration: none;
+        font-weight: 400;
+        margin-left: 0;
+    }
+    .contact-way:last-child {
+        margin-left: 40px;
+    }
+    
+    .contact-way:hover,
+    .contact-way:focus {
+        color: var(--primColor4);
+    }
+    .order {
+        background: var(--primColor2);
+    }
+    .order-container {
+       padding-top: 192px;
+        padding-bottom: 192px;
+        height: 603px; 
+    text-align: center;
+    }
+    .order-title {
+        color: var(--primColor3);
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 1.07;
+        width: 492px;
+    height: 120px;
+    text-align: center;
+    
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 492px;
+        margin-bottom: 48px;
+    }
+    .order-button {
+        background: var(--primColor4);
+        color: var(--primColor3);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.19;
+        cursor: pointer;
+        display: block;
+        letter-spacing: 0.04em;
+        padding-top: 16px;
+        padding-right: 32px;
+        padding-bottom: 16px;
+        padding-left: 32px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 4px;
+        border: transparent;
+        display: flex;
+        align-items: center;
+    }
+    .qualities-list {
+        display: flex;
+        padding-top: 120px;
+        align-items: center;
+    }
+    .quality-item {
+        max-width: 264px;
+    }
+    .quality-item:not(:last-child) {
+        margin-right: 24px;
+    }
+    .qualities-title {
+        color: var(--primColor2);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        margin-bottom: 8px;
+    }
+    .qualities-description {
+        font-size: 16px;
+        line-height: 1.5; 
+        letter-spacing: 0.02em;
+        font-weight: 400;
+    }
+    .title-two {
+        color: var(--primColor2);
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center; 
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+        align-items: center;
+        padding-top: 120px;
+    }
+    .image-list {
+        display: flex;
+        margin-top: 72px;
+        padding-bottom: 120px;
+    }
+    .image:not(:last-child) {
+        margin-right: 24px;}
+    
+    .team {
+        background: var(--primColor5);
+    }
+    .team-container {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+    .title-team {
+        color: var(--primColor2);
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 1.11;
+        text-align: center; 
+        letter-spacing: 0.02em;
+        text-transform: capitalize;
+    }
+    .team-members {
+        display: flex;
+        align-items: center;
+        margin-top: 72px;
+    }
+    .member:not(:last-child) {
+        margin-right: 24px;}
+    .member {
+        background: var(--primColor3);
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    }
+    .name {
+        color: var(--primColor2);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        text-align: center;
+        letter-spacing: 0.02em;
+        padding-top: 32px;
+    }
+    .position {
+        color:var(--primColor1);
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.02em;
+        font-weight: 400;
+        padding-top: 8px;
+        padding-bottom: 32px;
+        }
+    .footer-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .footer-logo {
+        font-family: 'Raleway', sans-serif;
+        color: var(--primColor4);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+        
+    }
+    .footer-logo-studio {
+        color: var(--primColor5);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        text-decoration: none;
+    }
+    .footer {
+        background: var(--primColor2);
+    }
+    .footer-description {
+        color: var(--primColor6);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-weight: 400;
+        margin-top: 16px;
+        width: 264px;
+    }
+    
+    /* portfolio styles  */
+    
+    .portfolio-container {
+        padding-top: 96px;
+        padding-bottom: 120px;
+    }
+    .filters {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 72px;
+    }
+    .filter-button {
+        color: var(--primColor4);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+        letter-spacing: 0.04em;
+        cursor: pointer;
+        border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    padding: 12px 24px;
+    }
+    .flex-container {
+        display: flex;
+      flex-wrap: wrap;
+      column-gap: 24px;
+      row-gap: 48px;
+      padding: 0;
+    }
+    .filters-item:not(:last-child) {
+        margin-right: 24px;
+    }
+    .filter-button:hover {
+        background-color: var(--primColor4);
+        color: var(--primColor3);
+    }
+    .portfolio-item {
+        color: var(--primColor5);
+        flex-basis: calc((100% - 48px)/3);
+        margin-right: 0;
+        
+    } 
+    .portfolio-item:nth-child(3n+3){
+        margin-right: 0;
+    }
+    .portfolio-title {
+        color: var(--primColor2);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        padding-top: 32px;
+    }
+    .portfolio-filter {
+        color: var(--primColor1);
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        font-weight: 400;
+        padding-top: 8px;
+        padding-bottom: 32px;
+    }
+    
