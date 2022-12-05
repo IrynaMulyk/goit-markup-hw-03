@@ -307,11 +307,11 @@
     .portfolio-item {
         color: var(--primColor5);
         flex-basis: calc((100% - 48px)/3);
-        margin-right: 0;
         
     } 
-    .portfolio-item:nth-child(3n+3){
-        margin-right: 0;
+    .card-text {
+        border: 0.5px solid #F4F4FD;
+        padding-left: 16px;
     }
     .portfolio-title {
         color: var(--primColor2);
