@@ -76,19 +76,16 @@ ul {
 }
 .contact {
   display: flex;
-  margin-right: 0;
   margin-left: auto;
+}
+.contact-item:last-child  {
+  margin-left: 40px;
 }
 .contact-way {
   color: var(--primColor1);
   text-decoration: none;
   font-weight: 400;
-  margin-left: 0;
 }
-.contact-way:last-child {
-  margin-left: 40px;
-}
-
 .contact-way:hover,
 .contact-way:focus {
   color: var(--primColor4);
@@ -134,7 +131,6 @@ ul {
   margin-right: auto;
   border-radius: 4px;
   border: transparent;
-  display: flex;
   align-items: center;
 }
 .qualities-list {
@@ -172,10 +168,10 @@ ul {
   text-transform: capitalize;
   align-items: center;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .image-list {
   display: flex;
-  margin-top: 72px;
   padding-bottom: 120px;
 }
 .image:not(:last-child) {
@@ -277,9 +273,9 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 72px;
+  padding-right: auto;
+  padding-left: auto;
+  padding-bottom: 72px;
 }
 .filter-button {
   color: var(--primColor4);
@@ -311,6 +307,9 @@ ul {
   color: var(--primColor5);
   flex-basis: calc((100% - 48px) / 3);
 }
+.portfolio-img {
+   display: block;
+} 
 .card-text {
   border: 0.5px solid #f4f4fd;
   padding-left: 16px;
@@ -321,7 +320,8 @@ ul {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  padding-top: 32px;
+  margin-top: 32px;
+  margin-bottom: 8px;
 }
 .portfolio-filter {
   color: var(--primColor1);
@@ -329,6 +329,5 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
-  padding-top: 8px;
-  padding-bottom: 32px;
+  margin-bottom: 32px;
 }
