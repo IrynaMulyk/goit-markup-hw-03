@@ -321,6 +321,8 @@ margin-bottom: 120px;
 .card-text {
   border: 0.5px solid #f4f4fd;
   padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .portfolio-title {
   color: var(--primColor2);
@@ -328,7 +330,6 @@ margin-bottom: 120px;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .portfolio-filter {
@@ -337,5 +338,4 @@ margin-bottom: 120px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 400;
-  margin-bottom: 32px;
 }
